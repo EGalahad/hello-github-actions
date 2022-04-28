@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Greet"
+author: "octocat"
+
+inputs:
+  MY_NAME:
+    description: "Who"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
